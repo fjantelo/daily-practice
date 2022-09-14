@@ -14,8 +14,18 @@ int multiplesOf3Or5(int number)
   return solution;
 }
 
+string reverseString(string str)
+{
+  string solution = "";
+  for (int i = (str.length() - 1); i >= 0; i--)
+  {
+    solution = solution + str[i];
+  }
+  return solution;
+}
+
 int main()
 {
-  cout << multiplesOf3Or5(10);
+  cout << reverseString("hello");
   return 0;
 }
