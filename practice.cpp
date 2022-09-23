@@ -24,7 +24,7 @@ string reverseString(string str)
   return solution;
 }
 
-int returnNegative(number)
+int returnNegative(int number)
 {
 }
 
