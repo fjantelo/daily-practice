@@ -24,6 +24,10 @@ string reverseString(string str)
   return solution;
 }
 
+int returnNegative(number)
+{
+}
+
 int main()
 {
   cout << reverseString("hello");
