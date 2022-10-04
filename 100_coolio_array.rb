@@ -13,7 +13,8 @@
 # [90, 20, 70, 100, 30, 80, 10]
 
 def coolio_array(array)
-  output = true
+  # output = true
+  array.length < 2 ? output = false : output = true
   index = 0
   while index < array.length / 2
     if array[index] + array[array.length - 1 - index] != 100
@@ -28,3 +29,4 @@ end
 p coolio_array([1, 2, 3, 97, 98, 99])
 p coolio_array([90, 20, 70, 100, 30, 80, 10])
 p coolio_array([1, 2, 3, 5, 7])
+p coolio_array([100])
